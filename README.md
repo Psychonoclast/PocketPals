@@ -51,7 +51,7 @@ To SUMMON a pokeball of your chosen Pokémon simply use the following wish formu
 For Alolan Ninetales, add prefix "A": ie. AzPx_ANinetalesCap
 For Deerling and Sawsbuck add the first two letters of a season as a suffix: eg. AzPx_DeerlingSpCap for spring Deerling, AzPx_SawsbuckWiCap for winter Sawsbuck
 
-All innate melee attacks have unlimited strength cap, as per natural weapons in CoQ. Damage dealing projectiles use the new stat scaling (ala compound bow/turbow)! Thunderbolt, Icebeam, etc. scale with Ego. Physical projectiles will likewise use strength (When some are implemented)
+All innate melee attacks have unlimited strength cap, as per natural weapons in CoQ. Thunderbolt, Icebeam, etc. will scale with Ego. Physical projectiles will likewise use strength (When some are implemented).
 
 // Playable Pokémon //
 
@@ -61,7 +61,7 @@ Simply move the files "Genotype.xml" and "Subtype.xml" from the nested folder "P
 // to do (loosely by priority) //
 
 -Add more Pokémon. Open to requests!
--Moves and Abilities. I'm planning moves as Mutations in various capacities, but I also enjoy that Pokémon can use their physical features for combat as well. I might not limit Pokémon to four moves, or cause certain moves to automatically upgrade.
+-Moves and Abilities. I'm planning moves as Mutations in various capacities, but I also enjoy that Pokémon can use their physical features for combat as well. I might not limit Pokémon to four moves, or cause certain moves to automatically upgrade to more powerful versions.
 -EVOLUTION! Pokémon will change form (Tile, Stats, and Anatomy) once reaching a certain level. Both Trainers and Playable Pokémon will be able to choose whether or not to evolve.
 -Flavor text. Just takes a while to write and make sound all fancy and poetic.
 -Typing. Pokémon will recieve certain advantages based on type. Eg. Water types swim at full speed, Steel and Poison types cannot be poisoned, Dark types are immune to Psychic type moves, Ghost types gain innate phasing, etc. I may add my own typing effects based around CoQ mechanics.
