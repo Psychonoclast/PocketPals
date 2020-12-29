@@ -60,7 +60,6 @@ Included Pokémon:
 
 ^=Playable
 *=Evolves
-	Ralts evolution is currently bugged, it throws an error but does not seem to be game breaking
 
 Pokémon with two stages evolve at 12 and 24
 Pokémon with one stage evolve at 16
@@ -219,4 +218,4 @@ Lore = Intelligence (11 for most Pokémon)
 
 Thank you Freehold Games, The Pokémon Company, and GameFreak for making these great games.
 
-Thank you to the Caves of Qud Discord community for helping me along with this project.
+Many thanks to the Caves of Qud Discord community for helping me along with this project.
