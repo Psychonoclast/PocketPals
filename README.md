@@ -4,7 +4,7 @@ A mod for Caves of Qud adding various creatures and features from the hit franch
 PocketPals Version 0.10
 
 
-// intro //
+### intro ###
 
 Hello dear friend!
 
@@ -16,18 +16,18 @@ That said, I hope you enjoy my work and find a valuable companion for your journ
 Live and drink
 
 
-// installation //
+### installation ###
 
 After extracting your download, place the new folder "PocketPals" in your Caves of Qud mod directory (you may need to create the folder):
 "C:\Users\Username\AppData\LocalLow\Freehold Games\CavesOfQud\Mods\"
 
-// implementation, rules, and other things //
+### implementation, rules, and other things ###
 
 please see "readme.txt" in the "PokePals" folder for instructions on aqcuiring your own Pocket Monster!
 
 
 
-// special thanks //
+### special thanks ###
 
 Thank you Freehold Games, The Pokémon Company, and GameFreak for making these great games.
 
