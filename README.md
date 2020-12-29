@@ -1,7 +1,7 @@
 # PocketPals
 A mod for Caves of Qud adding various creatures and features from the hit franchise Pokémon.
 
-PocketPals Version 0.29
+PocketPals Version 0.10
 
 
 // intro //
@@ -9,9 +9,11 @@ PocketPals Version 0.29
 Hello dear friend!
 
 Here is my first released mod. For anything! Ever!
-It all began with a couple of screenshots I posted for funsies. Due to the warm reception (and getting stuck on my 'current' project) I have decided to continue and see how far I can get.
-So far implementation is simple, there is some evolution, no (or few) proper moves implementation, no wild encounters, and no capturing.
+It all began with a couple of screenshots I posted for funsies. Due to the warm reception I have decided to continue and see how far I can get.
+So far implementation is simple, there is some evolution, a few moves implemented, a couple abilities, no wild encounters, and no capturing.
 That said, I hope you enjoy my work and find a valuable companion for your journeys.
+
+Live and drink
 
 
 // installation //
@@ -63,6 +65,7 @@ Included Pokémon:
 
 Pokémon with two stages evolve at 12 and 24
 Pokémon with one stage evolve at 16
+You have a choice whether a Pokémon evolves or not
 
 To SUMMON a pokeball of your chosen Pokémon simply use the following wish formula:
 
@@ -85,6 +88,7 @@ Typing:
 	-Steel and Ghost types do not bleed
 	-Fire types do not burn
 	-Ghost types gain at-will phasing
+	-Any type with Cold/Fire/Electric resistance or weakness have them
 
 Moves:
 	Moves considered "Mutations":
@@ -93,6 +97,7 @@ Moves:
 			-Tackle: 2d4 natural cudgel using body
 			-Quick Attack: same as tackle, but also increases maximum charge by 3
 			-Flame Charge: as Quick Attack, but deals additional fire damage and deals fire damage on Charge
+			-Ice Shard: same as Flame Charge, but deals cold instead
 			-Vine Whip: 2d4 natural cudgel using "bines" (arms)
 			-Needle Arm: 2d4 natural cudgel using arms
 			-Bite: 2d4 + 1d4 Umbral natural short blade using face
@@ -112,7 +117,7 @@ Moves:
 			-Ember: Fire damage, heats targets ala Flaming Ray
 			-Psychic: targets MA
 			-Flamethrower: Fire damage, heats targets ala Flaming Ray
-			-Ice Beam: Cold damage, chills targets
+			-Ice Beam: Cold damage, chills targets ala Freezing Ray
 			-Leech Seed: Life drains target based on their toughness
 	
 
@@ -123,16 +128,22 @@ Abilities:
 	-Chlorophyll: Single rank Photosynthetic Skin. Increases Quickness by +25 and Regeneration by 50% after basking
 
 Lore and Physiology:
-	-Spined Carapace: Quilladin and Chesnaught get their own variant of carapace. When tightening, AV goes way up, and melee attacks take 1/2 their own Strength in damage
+	-Spined Carapace: Quilladin and Chesnaught get their own variant of carapace. When tightening, AV goes way up, and melee attackers take 1/2 their own Strength in damage
 	-Horn Leech and Samurott's Razor Shell add AV
+	
+Other:
+	-All Pokémon have Night Vision
 	
 	
 // playable Pokémon //
+
 
 I've made a few of the Pokémon playable (the cute, startery ones).
 Simply move the files "Genotype.xml" and "Subtype.xml" from the nested folder "Playable" into the mod folder "PokePals" and a third genotype should appear at New Game
 
 Playable Pokémon have only a meager 22 pts for character creation but gain ~22+ more points from their species, this leaves them at or above Mutated Human stats. They also gain stat points upon evolving.
+
+Playable Pokémon evolve as capsule Pokémon
 
 Currently, Pokémon start with random junk in the hopes to give them meaning starting gear.
 
@@ -185,9 +196,10 @@ Random encounters. Encounter wild Pokémon in their respective environments. 'Nu
 
 // early release notes //
 
+
 Pokémon do not have conversations yet, to check their inventory or give them orders, use "Ctrl+Space" when adjacent to them.
 
-I've given some Pokémon tackle which normally do not have these moves. I have done so temporarily until I implement more moves. All Pokémon have Night Vision.
+I've given some Pokémon tackle which normally do not have these moves. I have done so temporarily until I implement more moves.
 
 Pokémon and their attacks are not yet balanced. Just like CoQ itself, balance will be in a state of flux and some Pokémon will naturally have an advantage in-game.
 
@@ -204,10 +216,10 @@ Feel free to contact me on the CoQ Discord about Pokémon requests and feature i
 I have included the spreadsheet I used to convert stats from the Pokémon games to CoQ stats. Feel free to peruse! Maybe even add your own.
 
 Spreadsheet explanation:
-Stats scale linearly. 60 is consider baseline (16, or at +0 modifier) and stats go up 1 AP for each 10 (rounded) base stat points. Pokémon gain a +1d4-1 (0-3) boost to base stats to similute IV points. Playable Pokémon get +4 avg to each stat and then gain extra stats based on chosen species.
+Stats scale linearly. 60 is consider baseline (16, or at +0 modifier) and stats go up 1 AP for each 10 (rounded) base stat points. Pokémon gain a +1d4-1 (0-3) boost to base stats to similute IV points.
 HP = Toughness
 Attack = Strength
-Defense = AV (0 below 53 Def, +1 each 10) ( Scales linearly will likely change to logarithmic or something)
+Defense = AV (0 below 53 Def, +1 each 10) (Scales linearly, will likely change to logarithmic or something)
 Sp. Attack = Ego
 Sp. Defense = Willpower
 Speed = Agility
