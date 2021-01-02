@@ -1,7 +1,7 @@
 # PocketPals
 A mod for Caves of Qud adding various creatures and features from the hit franchise Pokémon.
 
-PocketPals Version 0.10
+PocketPals Version 0.11
 
 
 ### intro ###
@@ -18,8 +18,14 @@ Live and drink
 
 ### installation ###
 
+windows:
 After extracting your download, place the new folder "PocketPals" in your Caves of Qud mod directory (you may need to create the folder):
 "C:\Users\Username\AppData\LocalLow\Freehold Games\CavesOfQud\Mods\"
+The AppData folder may be hidden. To reveal, switch to the "View" tab up top of the window. Then find the Show/Hide panel, tick the box Hidden items
+
+
+Please see the official wiki if you need assistance:
+https://cavesofqud.gamepedia.com/Modding:Installing_a_mod
 
 ### implementation, rules, and other things ###
 
